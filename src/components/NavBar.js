@@ -5,7 +5,7 @@ function NavBar(props){
     black: 'navbar-inverse',
     white: 'navbar-default'
   }
-  
+
   return (
     <nav className={`navbar ${colors[props.color]}`}>
       <div className='container-fluid'>
@@ -13,6 +13,7 @@ function NavBar(props){
           <a className='navbar-brand'>
             { props.title }
           </a>
+          
         </div>
       </div>
     </nav>
